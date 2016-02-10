@@ -1,4 +1,5 @@
 # is-es2016-keyword
+[![Build Status](https://api.travis-ci.org/inikulin/is-es2016-keyword.svg)](https://travis-ci.org/inikulin/is-es2016-keyword)
 
 Determine if string is an ES2016 keyword.
 
