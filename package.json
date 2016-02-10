@@ -1,24 +1,35 @@
 {
-  "name": "os-family",
+  "name": "is-es2016-keyword",
   "version": "1.0.0",
-  "description": "Guess what? It gives you OS family. Whoa!",
+  "description": "Determine if string is an ES2016 keyword.",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint index.js test.js && node test.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inikulin/os-family.git"
+    "url": "git+https://github.com/inikulin/is-es2016-keyword.git"
   },
   "keywords": [
-    "os",
-    "family",
-    "type",
-    "operating",
-    "system",
-    "name"
+    "ES2016",
+    "ECMAScript",
+    "keyword",
+    "ES6",
+    "ES7"
   ],
   "author": "Ivan Nikulin (ifaaan@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inikulin/os-family/issues"
+    "url": "https://github.com/inikulin/is-es2016-keyword/issues"
   },
-  "homepage": "https://github.com/inikulin/os-family#readme"
+  "homepage": "https://github.com/inikulin/is-es2016-keyword#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
 }

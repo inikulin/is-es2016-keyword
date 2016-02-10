@@ -1,18 +1,19 @@
-# os-family
+# is-es2016-keyword
 
-Guess what? It gives you OS family. Whoa!
-
-```js
-var osFamily = require('os-family');
-
-var isWindows = osFamily.win;
-var isLinux = osFamily.linux;
-var isMacOS = osFamily.mac;
-```
+Determine if string is an ES2016 keyword.
 
 ## Install
 ```
-npm install os-family
+npm install os-is-es2016-keyword
+```
+
+## Usage
+```js
+const isES2016Keyword = require('is-es2016-keyword');
+
+console.log(isES2016Keyword('async')); // > true
+console.log(isES2016Keyword('class')); // > true
+console.log(isES2016Keyword('yo'));    // > false
 ```
 
 ## Author
