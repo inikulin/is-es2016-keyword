@@ -5,7 +5,7 @@ Determine if string is an ES2016 keyword.
 
 ## Install
 ```
-npm install os-is-es2016-keyword
+npm install is-es2016-keyword
 ```
 
 ## Usage
